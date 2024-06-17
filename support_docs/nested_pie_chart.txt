@@ -1,0 +1,30 @@
+Utilize this sample code as foundation: 
+
+How to create nested pie chart
+
+# Calculate metrics by specified columns. In this case, looking at total sum of a numeric column 
+inner = df.groupby(["categorical_column1", "categorical_column2"])["metric_column1"].sum()
+outer = df.groupby("categorical_column1")["metric_column1"].sum()
+inner_labels = inner.index.get_level_values(1)
+
+# Create the nested pie chart
+fig, ax = plt.subplots(figsize=(10, 4))
+size = 0.3
+
+# Outer pie chart
+ax.pie(outer, radius=1,
+       labels=outer.index,
+       autopct='%1.1f%%',
+       wedgeprops=dict(width=size, edgecolor='w'))
+
+# Inner pie chart
+ax.pie(inner, radius=1 - size,
+       labels=inner_labels,
+       autopct='%1.1f%%',
+       wedgeprops=dict(width=size, edgecolor='w'))
+
+# Set aspect ratio to equal and add a legend
+ax.set(aspect="equal", title='...')
+ax.legend(inner_labels, title="Department", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
+
+plt.show()
