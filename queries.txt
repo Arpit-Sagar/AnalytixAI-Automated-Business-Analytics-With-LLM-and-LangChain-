@@ -1,0 +1,17 @@
+
+
+1) create a bar chart showing average spending amount per department per month
+2) create a pie chart showing total spending amount per month
+3) create a scatter plot showing spending per employee
+4) create a box plot showing average spending amount per department
+5) same for scatter plot
+6) create multiple bar charts showing average spending amount per month per department
+7) 
+
+
+
+
+
+create a bar chart showing average spending amount per department per month
+create a pie chart showing total spending amount per month
+create multiple bar charts showing average spending amount per month per department
