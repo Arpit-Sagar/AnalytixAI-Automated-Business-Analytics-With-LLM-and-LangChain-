@@ -8,13 +8,17 @@ Business analytics is the process of utilizing data analysis and statistical met
 **Novelty:** Real Time Data Processing, Versatile with all types of Visual Charts, Advanced Automated Textual Insights, User Interactive and completely automated.
 
 **BLOCK DIAGRAM :**
+
 ![image](https://github.com/Arpit-Sagar/AnalytixAI-Automated-Business-Analytics-With-LLM-and-LangChain-/assets/96679459/09fb47ac-290d-428b-803e-6bb69d8b5d40)
 
 **ACTIVITY DIAGRAM**
+
 ![image](https://github.com/Arpit-Sagar/AnalytixAI-Automated-Business-Analytics-With-LLM-and-LangChain-/assets/96679459/a1661265-0dcd-4e3e-8944-ecc6250d301b)
 
 **CLASS DIAGRAM**
+
 ![image](https://github.com/Arpit-Sagar/AnalytixAI-Automated-Business-Analytics-With-LLM-and-LangChain-/assets/96679459/69374730-b86a-4447-b235-517a50a7cf4a)
 
 **USE CASE DIAGRAM**
+
 ![image](https://github.com/Arpit-Sagar/AnalytixAI-Automated-Business-Analytics-With-LLM-and-LangChain-/assets/96679459/df2bf30f-f026-4b10-aa77-46857a68b9cb)
